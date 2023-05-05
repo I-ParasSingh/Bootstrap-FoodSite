@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>foodie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-danger-subtle" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span>Foodie</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Support</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                  <li><a class="dropdown-item" href="#">Help</a></li>
+                  <li><a class="dropdown-item" href="#">Review</a></li>
+
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Complaint</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit"><img src="./images/SEARCHONE.png" height="30px" width="35px"></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- navbar -->
+      <!-- alert -->
+      <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Successfully!</strong> login completed.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div> -->
+<!-- alert -->
+<!-- banner -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/78.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/456.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/source.unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- banner -->
+  <!-- card 1-->
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Cibo Italiano</strong>
+            <h3 class="mb-0">Lasagna</h3>
+            <div class="mb-1 text-muted"><span class="badge text-bg-info">New Post</span></div>
+            <p class="card-text mb-auto">When John Chandler submitted this lasagna recipe to Allrecipes more than 20 years ago, he had no idea how successful it would become. One of our top-performing recipes of all time.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="./images/lasan.jpg" alt="" >
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Cuisine Française</strong>
+            <h3 class="mb-0">Ratatouille</h3>
+            <div class="mb-1 text-muted"><span class="badge text-bg-success">New Recipe</span></div>
+            <p class="mb-auto">Ratatouille is delicious served over rice, quinoa, or risotto. Potatoes: I especially love it over roasted or mashed potatoes. Pasta: Like your favorite pasta sauce, ratatouille is an incredible accompaniment pasta.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="./images/Ratatouille.jpg" alt="" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card 1-2-->
+  <div class="container my-2">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-danger">Comida España</strong>
+            <h3 class="mb-0">Croquetas</h3>
+            <div class="mb-1 text-muted"><span class="badge text-bg-danger">add-on</span></div>
+            <p class="card-text mb-auto">A croquette is a deep-fried roll consisting of a thick binder combined with a filling, which is breaded; it is served as a side dish, a snack, or fast food worldwide. </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="./images/croquetas.jpg" alt="" >
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-warning">日本食</strong>
+            <h3 class="mb-0">Sushi</h3>
+            <div class="mb-1 text-muted"><span class="badge text-bg-warning">Special Offer</span></div>
+            <p class="mb-auto">Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood and vegetables.</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="./images/sushi.jpg" alt="" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- card 2 -->
+<!-- section special -->
+<hr class="featurette-divider">
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="./images/fruits-and-vegetables.png" width="140" height="140"><title>Placeholder</title>
+      <h2 class="fw-normal">Always Fresh Ingredients</h2>
+      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-md-4">
+      <img src="./images/chef (1).png" width="140" height="140"><title>Placeholder</title>
+      <h2 class="fw-normal">Specialist Chef</h2>
+      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-md-4">
+      <img src="./images/basket.png" width="140" height="140"><title>Placeholder</title>
+      <h2 class="fw-normal">Menu For Every Taste</h2>
+      <p>And lastly this, the third column of representative placeholder content.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+  
+<!-- section special -->
+
+<!-- chef -->
+
+<hr class="featurette-divider">
+
+  <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"A great introduction to cultures is their cuisine. <span class="text-muted">It not only reflects their evolution, but also their beliefs and traditions."</span></h2>
+        <p class="lead ">By Chef Vikas khanna </p>
+        <div class="space1"></div>
+        <div class="space2"></div>
+        <div class="space3"></div>
+        <div class="space4"></div>
+        <div class="space5"></div>
+      </div>
+      <div class="col-md-5">
+        <img src="./images/chef.jpg" width="450" height="450" class="img-fluid" alt="">
+      </div>
+    </div>
+<!-- chef -->
+  <hr class="featurette-divider">
+   
+  <!-- footer -->
+  <footer class="site-footer"><div class="wrap"><ul id="menu-footer" class="menu genesis-nav-menu menu-secondary js-superfish sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+    <li>Recipes</li>
+    <li>About</li>
+    <li>FAQ</li>
+    <li>Work With Me</li>
+    <li>Contact</li>
+    </ul></div></nav><p>Copyright ©&nbsp;2023 · <a href="https://www.foodiecrush.com/">Foodie</a> · <a href="/privacy-policy/">Privacy Policy</a></p></div></footer>
+</div>
+<!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
